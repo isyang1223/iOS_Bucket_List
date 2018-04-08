@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6F7372D520573850002481B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7372D420573850002481B8 /* AppDelegate.swift */; };
-		6F7372D720573850002481B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7372D620573850002481B8 /* ViewController.swift */; };
+		6F7372D720573850002481B8 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7372D620573850002481B8 /* BucketListViewController.swift */; };
 		6F7372DA20573850002481B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7372D820573850002481B8 /* Main.storyboard */; };
 		6F7372DC20573850002481B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7372DB20573850002481B8 /* Assets.xcassets */; };
 		6F7372DF20573850002481B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7372DD20573850002481B8 /* LaunchScreen.storyboard */; };
 		6F7372EA20573850002481B8 /* IOS_Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7372E920573850002481B8 /* IOS_Bucket_ListTests.swift */; };
 		6F7372F520573850002481B8 /* IOS_Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7372F420573850002481B8 /* IOS_Bucket_ListUITests.swift */; };
+		6F73730320574D7A002481B8 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F73730220574D7A002481B8 /* AddItemTableViewController.swift */; };
+		6F73730720575732002481B8 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F73730620575732002481B8 /* AddItemTableViewControllerDelegate.swift */; };
+		6F8792262059AE3C009BD5B1 /* BucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8792242059AE3C009BD5B1 /* BucketList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		6F7372D120573850002481B8 /* IOS Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7372D420573850002481B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F7372D620573850002481B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F7372D620573850002481B8 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		6F7372D920573850002481B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F7372DB20573850002481B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F7372DE20573850002481B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		6F7372F020573850002481B8 /* IOS Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7372F420573850002481B8 /* IOS_Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		6F7372F620573850002481B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F73730220574D7A002481B8 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		6F73730620575732002481B8 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		6F8792252059AE3C009BD5B1 /* IOS Bucket List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "IOS Bucket List.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				6F7372D420573850002481B8 /* AppDelegate.swift */,
-				6F7372D620573850002481B8 /* ViewController.swift */,
+				6F8792242059AE3C009BD5B1 /* BucketList.xcdatamodeld */,
+				6F7372D620573850002481B8 /* BucketListViewController.swift */,
 				6F7372D820573850002481B8 /* Main.storyboard */,
+				6F73730620575732002481B8 /* AddItemTableViewControllerDelegate.swift */,
+				6F73730220574D7A002481B8 /* AddItemTableViewController.swift */,
 				6F7372DB20573850002481B8 /* Assets.xcassets */,
 				6F7372DD20573850002481B8 /* LaunchScreen.storyboard */,
 				6F7372E020573850002481B8 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7372D720573850002481B8 /* ViewController.swift in Sources */,
+				6F7372D720573850002481B8 /* BucketListViewController.swift in Sources */,
+				6F73730320574D7A002481B8 /* AddItemTableViewController.swift in Sources */,
+				6F73730720575732002481B8 /* AddItemTableViewControllerDelegate.swift in Sources */,
 				6F7372D520573850002481B8 /* AppDelegate.swift in Sources */,
+				6F8792262059AE3C009BD5B1 /* BucketList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3YTYXM9Q86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IOS Bucket List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.IOS-Bucket-List";
@@ -442,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3YTYXM9Q86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IOS Bucket List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.IOS-Bucket-List";
@@ -558,6 +570,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F8792242059AE3C009BD5B1 /* BucketList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F8792252059AE3C009BD5B1 /* IOS Bucket List.xcdatamodel */,
+			);
+			currentVersion = 6F8792252059AE3C009BD5B1 /* IOS Bucket List.xcdatamodel */;
+			path = BucketList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6F7372C920573850002481B8 /* Project object */;
 }
